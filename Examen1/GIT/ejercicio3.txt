@@ -1,0 +1,8 @@
+Primero hacemos un fork de https://github.com/kant003/saludador2019.git
+Luego hacemos git clone de https://github.com/Gaalpos/saludador2019.git
+Crearmos lor archivos que queramos o editamos los que ya están
+Subimos los cambios a Git con :
+git add .
+git commit -m "saluador"
+git push origin master
+Luego realizamos una pull request al repo original

@@ -1,0 +1,5 @@
+git init
+git remote add origin https://github.com/Gaalpos/ejercicio2.git
+git add .
+git commit -m "ej2"
+git push origin master
