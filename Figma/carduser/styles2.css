@@ -1,0 +1,43 @@
+body{
+    background-color: #626262;
+}
+.container{
+    border-radius: 15px;
+    border: 4px solid;
+    background-color: #af9eef;
+    border-color: #503084;
+    padding: 1rem;
+    width: 10%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.nombreApellidos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.nombre{
+
+
+}
+.apellidos{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+
+}
+
+.foto{
+    width: 5rem;
+    border-radius: 100%;
+
+}
+
+.info{
+    display: none;
+}
+
