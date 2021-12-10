@@ -61,7 +61,7 @@ Hasta Que expresion_logica<br>
 >Para variable_numerica<-valor_inicial Hasta valor_final Con Paso paso Hacer
 	secuencia_de_acciones<br>
 Fin Para<br>
-![alt](para)
+![alt](para.png)
 
 ## Definición de subprocesos (no devuelven valores)
 >SubProceso NombreSubproceso (Argumentos)<br>
