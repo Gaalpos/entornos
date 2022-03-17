@@ -1,0 +1,10 @@
+Ejercicio 1: Elemento único: O(n^2) cuadratica
+
+Ejercicio 2: 3 algoritmos: 
+	1: O(n) lineal
+	2: O(n^2) cuadratica
+	3: O(2n) exponencial
+	
+Ejercicio 3: Casas: 
+Ejercicio 4: Suman X: 
+Ejercicio 5: Cuántas veces se repita cada palabra
