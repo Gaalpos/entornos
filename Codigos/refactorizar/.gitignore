@@ -2,3 +2,17 @@
 /User.class
 /UserCreator.class
 /DataValidation.class
+/Sanitario.class
+/Cirujanos.class
+/Enfermero.class
+/Medico.class
+/MedicosFamilia.class
+/Maze.class
+/MazeSolver.class
+/Position.class
+/Enemigo.class
+/Enemigo$TipoEnemigo.class
+/Armadura.class
+/EnemigNormal.class
+/EnemigoBoss.class
+/EnemigoFinalBoss.class
