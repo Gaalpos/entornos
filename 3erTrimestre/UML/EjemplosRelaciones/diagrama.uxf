@@ -1,0 +1,59 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>30</x><y>320</y><w>140</w><h>130</h></coordinates><panel_attributes>Taxi
+--
++chofer: Chofer
++cliente: Cliente[*]
+--
+
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>330</y><w>140</w><h>100</h></coordinates><panel_attributes>Chofer
+--
++nombre: String
++apellidos: String
+--
+
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>360</y><w>140</w><h>40</h></coordinates><panel_attributes>lt=-
+is used by</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>500</y><w>140</w><h>100</h></coordinates><panel_attributes>Cliente
+--
++nombre: String
++apellidos: String
+--
+
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>440</y><w>50</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>490</y><w>140</w><h>100</h></coordinates><panel_attributes>Mecanico
+--
++nombre: String
+--
++reparar(taxi:Taxi): void
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>410</y><w>210</w><h>100</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;10;190;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>180</y><w>140</w><h>130</h></coordinates><panel_attributes>Moto
+--
+
+--
+
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>180</y><w>140</w><h>130</h></coordinates><panel_attributes>Barco
+--
+
+--
+
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>250</x><y>0</y><w>140</w><h>130</h></coordinates><panel_attributes>Vehiculo
+--
++matricula: String
++plazas: Integer
+
+--
+
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>120</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>120</y><w>270</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;40;250;40;250;60</additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>120</y><w>240</w><h>220</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>220;10;220;40;10;40;10;200</additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>0</y><w>140</w><h>80</h></coordinates><panel_attributes>Conducible
+--
+
+--
++conducir():void
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>30</y><w>120</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>100;10;10;10</additional_attributes></element><element><id>UMLInterface</id><coordinates><x>500</x><y>80</y><w>100</w><h>100</h></coordinates><panel_attributes>Conducible
+--
++conducir():void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>90</y><w>180</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>160;10;10;10</additional_attributes></element></diagram>

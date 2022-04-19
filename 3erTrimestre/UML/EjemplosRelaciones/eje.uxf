@@ -1,0 +1,43 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>696</x><y>500</y><w>210</w><h>190</h></coordinates><panel_attributes>Vehículo
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>46</x><y>360</y><w>210</w><h>90</h></coordinates><panel_attributes>CompotaDeManzana
+--
+
+--
+
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>156</x><y>130</y><w>210</w><h>90</h></coordinates><panel_attributes>Comida
+--
+matrícula: string
+palzas: integer
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>266</x><y>360</y><w>210</w><h>90</h></coordinates><panel_attributes>PolloALaPantoja
+--
+
+--
+
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>46</x><y>700</y><w>210</w><h>90</h></coordinates><panel_attributes>Localización
+--
+matrícula: string
+palzas: integer
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>46</x><y>580</y><w>210</w><h>90</h></coordinates><panel_attributes>Ingedientes
+--
+matrícula: string
+palzas: integer
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>286</x><y>700</y><w>210</w><h>90</h></coordinates><panel_attributes>Restaurante
+--
+matrícula: string
+palzas: integer
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>276</x><y>580</y><w>210</w><h>90</h></coordinates><panel_attributes>Cheff
+--
+matrícula: string
+palzas: integer
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>416</x><y>130</y><w>210</w><h>80</h></coordinates><panel_attributes>Comestibe
+--
+
+--
+Comer(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>160</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>70;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>210</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>280</y><w>270</w><h>100</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;80;10;10;250;10;250;80</additional_attributes></element></diagram>
