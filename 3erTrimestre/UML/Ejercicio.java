@@ -40,7 +40,7 @@ class Restaurante {
 
 class Cheff {
     public String nombre;
-    public Restaurante empleos;
+    public Restaurante empleos[];
 
     void elaborarComida(Comida comida) {
         // trabando....
@@ -49,6 +49,7 @@ class Cheff {
 
 public class Ejercicio {
     public static void main(String[] args) {
-
+        Restaurante pataNegra= new Restaurante();
+        Cheff arguiñano
     }
 }
