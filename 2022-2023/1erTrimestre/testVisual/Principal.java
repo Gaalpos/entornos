@@ -5,16 +5,16 @@ package testVisual;
  */
 public class Principal {
 
-    public static int sumar(int c) {
-        int a = 7;
-        return a * c;
+    public static int sumar(int a, int b) {
+        int valor = a - b;
+        return valor;
     }
 
-    public static void  main(String[] args) {
-        int num1 =5;
-        int num2 =8;     
-        int result =num1+num2;
-        System.out.println(result);        
-        int result2 = sumar(6);
-        System.out.println(result2);
+    public static void main(String[] args) {
+        int num1 = 5;
+        int num2 = 8;
+        int resultado = sumar(num1, num2);
+        System.out.println(resultado);
+
     }
+}

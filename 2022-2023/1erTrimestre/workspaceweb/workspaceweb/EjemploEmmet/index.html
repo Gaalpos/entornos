@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    nav>ul>li.menuitem*3
+    <nav>
+        <ul>
+            <il class="menuitem"></il>
+            <il class="menuitem"></il>
+            <il class="menuitem"></il>
+        </ul>
+    </nav>
+
+
+    nav>ul>li.menuitem.item$*3
+    <nav>
+        <ul>
+            <li class="menuitem item1"></li>
+            <li class="menuitem item2"></li>
+            <li class="menuitem item3"></li>
+        </ul>
+    </nav>
+    div>img[src=]
+    <div><img src="https://comunidad.retorn.com/wp-content/uploads/cache/2018/09/gatitos/3008811440.jpg" alt=""></div>
+
+    h1[title=principal]{Titulo1}
+    <h1 title="principal">Titulo1</h1>
+
+
+    div.parrafo>h${Cabecera$}*2+hr[width=5px]#separador
+    <div class="parrafo">
+        <h1>Cabecera1</h1>
+        <h2>Cabecera2</h2>
+        <hr width="5px" id="separador">
+    </div>
+
+
+    div+div>p>span{hola}+em{soy Angel}^blockquote{cebem}
+    div+div>(p>span{hola}+em{soy Angel})+blockquote{cebem}
+    <div></div>
+    <div>
+        <p><span>hola</span><em>soy Angel</em></p>
+        <blockquote>cebem</blockquote>
+    </div>
+
+    ul>li.c$@-*4
+    <ul>
+        <li class="c4"></li>
+        <li class="c3"></li>
+        <li class="c2"></li>
+        <li class="c1"></li>
+    </ul>
+
+    header>(img.title[src=foto.png][alt=foto])+h1.title{titulo de la web}
+    <header>
+        <img class="cabecera" src="foto.png" alt="foto portada">
+        <h1 class="cabecera">titulo de la web</h1>
+    </header>
+
+
+    ol>li.item*4{}
+    <ol>
+        <li class="item">uno</li>
+        <li class="item">dos</li>
+        <li class="item">tres</li>
+        <!-- <li class="item">cuatro</li> -->
+    </ol>
+
+
+
+
+</body>
+
+</html>

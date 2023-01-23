@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    //Paso de parametros por POST
+    <?php
+    if ($_POST){
+    $num = $_POST["numero"];
+    if($num >= 0){
+        echo "El numero ".$num." es positivo";
+    }
+    else{
+        echo "El numero ".$num." es negativo";
+    }
+    }
+    ?>
+    <form action="ejem04.html" method="post">
+        Inserta el numero <input type="numero" name="numero" type="text">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+
+
+
+</body>
+
+</html>
